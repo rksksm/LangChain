@@ -33,4 +33,3 @@ chain = prompt|llm|output_parser
 
 if imput_text:
     st.write(chain.invoke({'question': imput_text}))
-
